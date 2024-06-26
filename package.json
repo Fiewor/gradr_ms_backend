@@ -1,0 +1,26 @@
+{
+  "name": "gradr_ms_backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Fiewor John",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node --watch --env-file=.env app.js"
+  },
+  "dependencies": {
+    "@azure/openai": "1.0.0-beta.11",
+    "@azure/storage-file-share": "^12.23.0",
+    "@langchain/community": "0.0.32",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "16.4.4",
+    "express": "^4.19.2",
+    "langchain": "0.1.21",
+    "mongodb": "6.3.0",
+    "multer": "^1.4.5-lts.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "word-extractor": "^1.0.4"
+  }
+}
